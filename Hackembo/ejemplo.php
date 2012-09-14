@@ -14,7 +14,7 @@
 	
 	$db = new DataBase();
 
-//INSERTAR();
+//INSERTAR(a);
 	$db->insertar("usuarios",array("nombre"=>"Pau","ci"=>446544));
 	$db->insertar("usuarios",array("nombre"=>"Eladio","ci"=>123456));
 	$ins = $db->insertar("usuarios",array("nombre"=>"Pes","ci"=>553171));
